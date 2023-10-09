@@ -1,0 +1,219 @@
+body{
+    background-image: url(../images/a0fe7538ac406c1650e95aac5aba23bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+ }
+ div{
+     border-radius: 20px;
+ }
+  h2{
+    color: black;
+    font-size: 25px;
+    font-family:cursive;
+    text-align: center;
+    font-weight: bold;
+ }
+ 
+ .div1{
+     left: 0;
+     width: 250px;
+     height: 150px;
+     background-color:B0578D;
+     position: absolute;
+     animation-name: change1;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-fill-mode: forwards;
+     background-image: url(../images/765cb27750e382c0a22d3fa4a2538878.jpg);
+     background-size: cover;
+ }
+ @keyframes change1{
+     0%{
+         left: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color: D988B9;    
+    } 
+    50%{
+       background-color: F1B4BB ;
+    }
+    75%{
+       background-color:  FACBEA;
+    }
+     100%{
+       background-color: FFE4D6;
+         left: 1200px;
+     }
+ }
+ .div2{
+     right: 0;
+     width: 250px;
+     height: 150px;
+     background-color:B0578D;
+     position: absolute;
+     top: 200px;
+     animation-name: change2;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-delay: 3s;
+     animation-fill-mode: forwards;
+     background-image: url(../images/d42ce5b660c560c5e526dc6ad1f12ecf.jpg);
+ }
+ @keyframes change2{
+     0%{
+         right: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color: D988B9;    
+    } 
+    50%{
+       background-color:F1B4BB;
+    }
+    75%{
+       background-color: FACBEA;
+    }
+     100%{
+       background-color: FFE4D6;
+       right: 1200px;
+     }
+ }
+ .div3{
+     left: 0;
+     width: 250px;
+     height: 150px;
+     top: 400px;
+     background-color:B0578D;
+     position: absolute;
+     animation-name: change1;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-fill-mode: forwards;
+     animation-delay: 6s;
+     background-image: url(../images/c79acccd8ae82aa857744f08b40f5121.jpg);
+ }
+ @keyframes change3{
+     0%{
+         left: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color:D988B9;    
+    } 
+    50%{
+       background-color: F1B4BB ;
+    }
+    75%{
+       background-color: FACBEA;
+    }
+     100%{
+       background-color:FFE4D6;
+       left: 1200px;
+     }
+ }
+ .div4{
+     right: 0;
+     width: 250px;
+     height: 150px;
+     top: 600px;
+     background-color:B0578D;
+     position: absolute;
+     animation-name: change4;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-delay: 9s;
+     animation-fill-mode: forwards;
+     background-image: url(../images/4f8934f0638c99f3f76ecb66d7fee1cf.jpg);
+    }
+
+ @keyframes change4{
+     0%{
+         right: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color: D988B9;    
+    } 
+    50%{
+       background-color: F1B4BB ;
+    }
+    75%{
+       background-color:  FACBEA;
+    }
+     100%{
+       background-color: FFE4D6;
+       right: 1200px;
+     }
+ }
+ .div5{
+     left: 0;
+     width: 250px;
+     height: 150px;
+     top: 800px;
+     background-color:B0578D;
+     position: absolute;
+     animation-name: change1;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-fill-mode: forwards;
+     animation-delay: 12s;
+     background-image: url(../images/dd07831d86998f265437426c9f4c3423.jpg);
+ } 
+ @keyframes change5{
+     0%{
+         left: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color: D988B9;    
+    } 
+    50%{
+       background-color:F1B4BB ;
+    }
+    75%{
+       background-color: FACBEA;
+    }
+     100%{
+       background-color:FFE4D6;
+       left: 1200px;
+     }
+ }
+ .div6{
+     right: 0;
+     width: 250px;
+     height: 150px;
+     top: 1000px;
+     background-color:B0578D;
+     position: absolute;
+     animation-name: change6;
+     animation-duration: 3s;
+     animation-timing-function: linear;
+     animation-delay:15s;
+     animation-fill-mode: forwards;
+     background-image: url(../images/84ea1c68a078cb39c7ff65588ea664fd.jpg);
+ }
+ @keyframes change6{
+     0%{
+         right: 0;
+         background-color:B0578D;
+     }
+     25%{
+       background-color:D988B9;    
+    } 
+    50%{
+       background-color:F1B4BB ;
+    }
+    75%{
+       background-color: FACBEA;
+    }
+     100%{
+       background-color:FFE4D6;
+       right: 1200px;
+     }
+ }
+ 
